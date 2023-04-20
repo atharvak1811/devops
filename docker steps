@@ -1,0 +1,11 @@
+docker --version
+docker login
+docker run -id -d ubuntu
+docker pull ubuntu
+docker images
+docker tag 08d22c0ceb15
+docker tag 08d22c0ceb15 atharvakapade/ubuntu
+docker images
+docker push atharva/ubuntu:latest
+docker ps
+docker stop (contained_id)
